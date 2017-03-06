@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 17:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: guess.py:54
+#, python-format
+msgid "Good job, %s! You guessed my number in %s guesses!"
+msgstr "干的非常好，%s！您在第%s次猜中了我想的数字！"
+
+#: guess.py:24
+msgid "Hello! What is your name?\n"
+msgstr "您好，请问您的名字是？\n"
+
+#: guess.py:27
+msgid "I am thinking of a number between 1 and 20, then you guess."
+msgstr "我想一个1到20的数字，然后你来猜"
+
+#: guess.py:34
+msgid "I have already got the number, you can guess now"
+msgstr "我已经想到了一个数字，您现在可以猜了"
+
+#: guess.py:26
+msgid "I want to play a game with you."
+msgstr "我想和你玩一个游戏。"
+
+#: guess.py:58
+#, python-format
+msgid "Nope. The number I was thinking of was %s."
+msgstr "好吧。我所想的数字是%s。"
+
+#: guess.py:38
+msgid "Please try again:"
+msgstr "请重新试一下"
+
+#: guess.py:25
+#, python-format
+msgid "Well, %s"
+msgstr "好的，%s"
+
+#: guess.py:48
+msgid "Your guess is too high."
+msgstr "您猜的数字太大"
+
+#: guess.py:45
+msgid "Your guess is too low."
+msgstr "您猜的数字太小"
+
+#: guess.py:28
+msgid "ok,begin."
+msgstr "好的，开始"
+
+#~ msgid "Take a guess."
+#~ msgstr "您猜一下"

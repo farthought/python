@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC:= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS:= `pkg-config --cflags gio-2.0` -g$/;"	m
+LIBS	Makefile	/^LIBS:= `pkg-config --libs gio-2.0`$/;"	m
+OUT1	Makefile	/^OUT1:= isoft-rmdisk$/;"	m
+PERM_INIT	main.c	20;"	d	file:
+PERM_KEY_OFF	main.c	22;"	d	file:
+PERM_KEY_ON	main.c	21;"	d	file:
+callback_timeout	main.c	/^static void callback_timeout(int sig)$/;"	f	file:	signature:(int sig)
+callback_unix_signal	main.c	/^static void callback_unix_signal(int snu)$/;"	f	file:	signature:(int snu)
+cb_drive_connected	main.c	/^static void cb_drive_connected(GVolumeMonitor *monitor,$/;"	f	file:	signature:(GVolumeMonitor *monitor, GDrive *drive, gpointer user_data)
+cb_list_remove_all_rdisk	main.c	/^void cb_list_remove_all_rdisk(gpointer data, gpointer user_data)$/;"	f	signature:(gpointer data, gpointer user_data)
+cb_volume_changed	main.c	/^static void cb_volume_changed(GVolumeMonitor *monitor,$/;"	f	file:	signature:(GVolumeMonitor *monitor, GVolume *volume, gpointer user_data)
+main	main.c	/^int main(int argc, const char **argv)$/;"	f	signature:(int argc, const char **argv)
+monitor	main.c	/^GVolumeMonitor *monitor = NULL;$/;"	v
+permission_code	main.c	/^int permission_code = 1;$/;"	v
+permission_is_ok	main.c	/^static int permission_is_ok()$/;"	f	file:
+remvoe_all_rdisk	main.c	/^void remvoe_all_rdisk()$/;"	f
+set_user_env	main.c	/^int set_user_env(void)$/;"	f	signature:(void)
+timeout	main.c	/^int timeout = 60;$/;"	v

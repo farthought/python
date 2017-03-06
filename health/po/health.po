@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 17:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: health.py:310
+msgid " please check!"
+msgstr "请检查"
+
+#: health.py:252
+msgid "Age:"
+msgstr "年龄："
+
+#: health.py:320
+msgid "Basal metabolic calculation"
+msgstr "基础消耗"
+
+#: health.py:190
+msgid "Change the name"
+msgstr "更改用户名"
+
+#: health.py:249
+msgid "Detail information"
+msgstr "详细信息"
+
+#: health.py:308 health.py:310
+msgid "Hello "
+msgstr "您好"
+
+#: health.py:243
+msgid "System login dialog"
+msgstr "系统登录窗口"
+
+#: health.py:48
+msgid "Username"
+msgstr "用户名"
+
+#: health.py:252
+msgid "Username:"
+msgstr "用户名："
+
+#: health.py:37
+msgid "Welcome, please login first"
+msgstr "欢迎，请先登录"
+
+#: health.py:104
+msgid "You have the Caps Lock key on."
+msgstr "键盘大写锁打开"
+
+#: health.py:88
+msgid "Your username or password is wrong, please try again"
+msgstr "您的用户名或密码错误，请重新输入"
+
+#: health.py:260
+msgid "_Calculation"
+msgstr "提交(_C)"
+
+#: health.py:51
+msgid "_Password"
+msgstr "密码(_P)"
+
+#: health.py:64
+msgid "exit"
+msgstr "退出"
+
+#: health.py:252
+msgid "height(cm):"
+msgstr "身高(cm)："
+
+#: health.py:63
+msgid "login"
+msgstr "登录"
+
+#: health.py:253
+msgid "sex:"
+msgstr "性别："
+
+#: health.py:253
+msgid "weight(kg):"
+msgstr "体重(kg)："
+
+#: health.py:310
+msgid "you input the wrong sex: "
+msgstr "您输入的性别有误"
+
+#: health.py:308
+msgid "your basal metabolic calculation is "
+msgstr "您每天的基础消耗是"

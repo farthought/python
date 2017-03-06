@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A_RATIO	health.py	/^    A_RATIO = 4.6756$/;"	v	class:Woman
+A_RATIO	health.py	/^    A_RATIO = 6.7650$/;"	v	class:Man
+BASE	health.py	/^    BASE = 65.0955$/;"	v	class:Woman
+BASE	health.py	/^    BASE = 66.4730$/;"	v	class:Man
+DimmedTable	health.py	/^class DimmedTable (Gtk.Table):$/;"	c	inherits:Gtk.Table
+EditableEntry	health.py	/^class EditableEntry (Gtk.Notebook):$/;"	c	inherits:Gtk.Notebook
+GetData	list.py	/^    def GetData(self,pos):  $/;"	m	class:List	access:public
+GetRoot	list.py	/^    def GetRoot(self):  $/;"	m	class:List	access:public
+GetSize	list.py	/^    def GetSize(self):  $/;"	m	class:List	access:public
+H_RATIO	health.py	/^    H_RATIO = 1.8496$/;"	v	class:Woman
+H_RATIO	health.py	/^    H_RATIO = 5.0033$/;"	v	class:Man
+Insert	list.py	/^    def Insert(self,newData):  $/;"	m	class:List	access:public
+LOCK_CAPS	health.py	/^    LOCK_CAPS = 1$/;"	v	class:Lock
+LOCK_NONE	health.py	/^    LOCK_NONE = 0$/;"	v	class:Lock
+List	list.py	/^class List:  $/;"	c	inherits:
+Lock	health.py	/^class Lock(Enum):$/;"	c	inherits:Enum
+LoginDialog	health.py	/^class LoginDialog(Gtk.Dialog):$/;"	c	inherits:Gtk.Dialog
+MainWindow	health.py	/^class MainWindow(Gtk.Window):$/;"	c	inherits:Gtk.Window
+Man	health.py	/^class Man(Enum):$/;"	c	inherits:Enum
+Node	list.py	/^class Node:  $/;"	c	inherits:
+PAGE_BUTTON	health.py	/^    PAGE_BUTTON = 0$/;"	v	class:EditableEntry
+PAGE_ENTRY	health.py	/^    PAGE_ENTRY = 1$/;"	v	class:EditableEntry
+PasswordDialog	health.py	/^class PasswordDialog(Gtk.Dialog):$/;"	c	inherits:Gtk.Dialog
+Print	list.py	/^    def Print(self):  $/;"	m	class:List	access:public
+Remove	list.py	/^    def Remove(self,theData):  $/;"	m	class:List	access:public
+W_RATIO	health.py	/^    W_RATIO = 13.751$/;"	v	class:Man
+W_RATIO	health.py	/^    W_RATIO = 9.463$/;"	v	class:Woman
+Woman	health.py	/^class Woman(Enum):$/;"	c	inherits:Enum
+_	health.py	/^_=gettext.gettext$/;"	v
+__del__	list.py	/^    def __del__(self):  $/;"	m	class:List	file:	access:private
+__gsignals__	health.py	/^    __gsignals__ = {$/;"	v	class:EditableEntry
+__init__	health.py	/^    def __init__ (self):$/;"	m	class:DimmedTable	access:public
+__init__	health.py	/^    def __init__ (self):$/;"	m	class:EditableEntry	access:public
+__init__	health.py	/^    def __init__ (self, title):$/;"	m	class:MainWindow	access:public
+__init__	health.py	/^    def __init__(self):$/;"	m	class:PasswordDialog	access:public
+__init__	health.py	/^    def __init__(self, title):$/;"	m	class:LoginDialog	access:public
+__init__	list.py	/^    def __init__(self):  $/;"	m	class:List	access:public
+__init__	list.py	/^    def __init__(self,newRoot):  $/;"	m	class:List	access:public
+__init__	list.py	/^    def __init__(self,nodeData):  $/;"	m	class:Node	access:public
+_on_button_clicked	health.py	/^    def _on_button_clicked(self, button):$/;"	m	class:EditableEntry	access:public
+_on_button_exit_clicked	health.py	/^    def _on_button_exit_clicked(self,widget):$/;"	m	class:LoginDialog	access:public
+_on_button_login_clicked	health.py	/^    def _on_button_login_clicked(self, widget):$/;"	m	class:LoginDialog	access:public
+_on_cacul_button_clicked	health.py	/^    def _on_cacul_button_clicked(self, widget):$/;"	m	class:MainWindow	access:public
+_on_entry_changed	health.py	/^    def _on_entry_changed(self, entry):$/;"	m	class:EditableEntry	access:public
+_on_entry_focus_in	health.py	/^    def _on_entry_focus_in(self, event, userdata):$/;"	m	class:LoginDialog	access:public
+_on_entry_text_changed	health.py	/^    def _on_entry_text_changed(self, widget, event):$/;"	m	class:EditableEntry	access:public
+_on_entry_validated	health.py	/^    def _on_entry_validated(self, entry):$/;"	m	class:EditableEntry	access:public
+_on_keymap_state_changed	health.py	/^    def _on_keymap_state_changed(self, widget):$/;"	m	class:LoginDialog	access:public
+_on_new_name_icon_released	health.py	/^    def _on_new_name_icon_released(self, widget, icon_pos, event):$/;"	m	class:EditableEntry	access:public
+add_controls	health.py	/^    def add_controls(self, row_n, begin, end, controls):$/;"	m	class:DimmedTable	access:public
+add_labels	health.py	/^    def add_labels(self, row_n, begin, end, texts):$/;"	m	class:DimmedTable	access:public
+cacul_man_basal_metabolic	health.py	/^    def cacul_man_basal_metabolic(self, height, weight, age):$/;"	m	class:MainWindow	access:public
+conf	test.py	/^conf = ConfigParser.ConfigParser()$/;"	v
+data	list.py	/^    data = None  $/;"	v	class:Node
+get_editable	health.py	/^    def get_editable(self):$/;"	m	class:EditableEntry	access:public
+get_kbd_lock_mode	health.py	/^    def get_kbd_lock_mode(self):$/;"	m	class:LoginDialog	access:public
+get_text	health.py	/^    def get_text(self):$/;"	m	class:EditableEntry	access:public
+i	test.py	/^i = 3$/;"	v
+kbd_lock_mode_update	health.py	/^    def kbd_lock_mode_update(self, mode):$/;"	m	class:LoginDialog	access:public
+metabolicDialog	health.py	/^class  metabolicDialog(Gtk.Dialog):$/;"	c	inherits:Gtk.Dialog
+name	test.py	/^name = conf.get("user", "1")$/;"	v
+next	list.py	/^    next = None  $/;"	v	class:Node
+password	test.py	/^password = conf.get("password", "1")$/;"	v
+root	list.py	/^    root = None  $/;"	v	class:List
+sections	test.py	/^sections = conf.sections()$/;"	v
+set_editable	health.py	/^    def set_editable(self, editable):$/;"	m	class:EditableEntry	access:public
+set_text	health.py	/^    def set_text(self, text):$/;"	m	class:EditableEntry	access:public
+set_tooltip_text	health.py	/^    def set_tooltip_text(self, tooltip):$/;"	m	class:EditableEntry	access:public
+size	list.py	/^    size = 0;  $/;"	v	class:List
+w	health.py	/^    w = MainWindow(_("Basal metabolic calculation"))$/;"	v	class:MainWindow
